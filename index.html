@@ -13,69 +13,86 @@
 
 <body>
   <header class="text-centered">
-  <div class="lightbrown-headerbackground">
-      <h1>Introduction</h1>
-    </div>
-        <p>Hey all, my name is Xeng. I'm located in Minneapolis, Minnesota, USA. I'm very excited about what the future holds. Thank you for visiting my page.</p>
+    <h1 class="lightbrown-headerbackground">Introduction</h1>
+    <p>Hey all, my name is Xeng. I'm located in Minneapolis, Minnesota, USA. I'm very excited about what the future holds. Thank you for visiting my page.</p>
+    <!--Referred back to previous examples in the lesson to edit image size-->
+    <img src="Xeng Pha Picture.jpg">
   </header>
-    
-  <!--Referred back to previous examples in the lesson to edit image size-->
-  <div class="text-centered">
-  <img src="x chenku.jpg" width="500">
-  <div class="lightbrown-headerbackground">
-    <h1>About Me</h1>
-  </div>
-  </div>
-  <div class ="text-centered">
-    <h2>I am who I am</h2>
-      <p>I wanted to get into web development to build a tool that can change the world, or at the very least, make my life much simpler. I'm super excited to 
-        see who I meet along the way and discover how we can help eachother. As a licensed mental health practitioner, I understand the importance for human 
-        connection and teamwork. I'm slowly learning web development and all things related to coding.</p>
-        <p>I like to believe I'm a pretty normal person, for you to get the know me better, let me share some information about me in the next 
-            two sections below.</p> 
-          <h3>The following are some of my hobbies in my spare time:</h3>
-          <ul>
-            <li>Hanging out with my little brother</li>
-            <li>Video games</li>
-            <li>Exercising</li>
-            <li>Planning my next getaway!</li>
-          </ul>
 
-        <h3>My favorite movies of all time(in order):</h3>
-          <ol>
-            <li>The Dark Knight</li>
-            <li>The Avengers</li>
-            <li>My Name is Khan</li>
-            <li>Inception</li>
-          </ol>
-  </div>
- 
-  <div class="text-centered"> 
-  <div class="lightbrown-headerbackground">
-    <h1>Mental Health Resources</h1>
-  </div>
-    <h3>Coming Soon!</h3>
-   <p>Please check back here regularly for updates on our search for partnerships and sponsors to promote mental health and social resources of all kinds!</p>
-</div>
+  <main>
+    <section class ="text-centered">
+      <h1 class="lightbrown-headerbackground">About Me</h1>
+      <h2>I am who I am</h2>
+      <p>I wanted to get into web development to build a tool that can change the mental health world which would simplifying the search for resources and
+        application process for support(s). I'm super excited to see who I meet along the way and discover how we can help eachother. As a licensed mental health
+        practitioner, I understand the importance for human connection in teamwork and thus am looking forward to building strong bonds with my teammates.
+        Three unique assets I bring to a team are imagination, curiosity, and passion.</p>
+      <p>I like to believe I'm a pretty normal person. For you to get the know me better, let me share some information about me in the next 
+        two sections below.</p> 
 
-  <div class="text-centered">
-  <article>
-    <h2>Also please keep up with current events through my channel!</h2>
-    <a href="https://tyt.com/" target="_blank" width="100">TYT.com</a>
-    <!--Claudio suggests putting width into CSS not HTML file which makes sense since it is visual and cosmetic-->
-  </article>
-</div>
- 
- <footer class="text-centered">
-  <div class="lightbrown-headerbackground">
-  <h1>Contact</h1>
-  </div>
-  <p>Feel free to connect with me at the following links:</p>
-  <!--I personally prefer it when links open up in tabs as opposed to a new window thus I used the target="_blank" to make that happen-->
-  <a href="https://www.linkedin.com/in/xeng-pha/" target="_blank"> <img src="linkedin-logo.png" width="150"></a>
-  <a href="http://www.github.com/phaxx031" target="_blank"> <img src="github logo.png" width="150"></a>
-   <!--Claudio suggests putting width into CSS not HTML file which makes sense since it is visual and cosmetic-->
- </footer>
+      <hr>
+      
+      <section>
+      <h3>The following are some of my hobbies in my spare time:</h3>
+      <ul>
+        <li>Hanging out with my little brother</li>
+        <li>Video games</li>
+        <li>Exercising</li>
+        <li>Planning my next getaway!</li>
+      </ul>
+      <img src="x chenku.jpg" width="667">
+      <img src="X Raft.JPG" width="1000">
+      </section>
+
+      <hr>
+
+      <h3>My favorite movies of all time(in order):</h3>
+      <ol>
+        <li>The Dark Knight</li>
+        <li>The Avengers</li>
+        <li>My Name is Khan</li>
+        <li>Inception</li>
+      </ol>
+    </section>
+    <!--Claudio and I went over the formatting/indenting for the section above, indenting means the indented code is within the previous code. 
+    So for example h2 ends on line 30 it does not go onto 31 necessarily so <p> within it is a sibling/same level as h2 on line 30. 
+    The li directly belong to ul and ol which is why they are indented. Of course h2 and p, etc fits into main and section so they are indented.
+    Also for <p> when I hit enter, i do not need to use tab after I've hit enter to put it into a lower line.-->
+  
+    <section class="text-centered">
+      <h1 class="lightbrown-headerbackground">Mental Health Resources</h1>
+      <div class="group item">
+      <div class="text-centered">
+      <img src="Coming Soon.png">
+      </div>
+      <h3>yourhealth.com</h3>
+      <p>Stay tuned for the worldwide launch of a website that will simplify your search for mental health services and application(s) 
+        for social resources!</p>
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="text-centered">
+      <article>
+      <h2>Also please keep up with current events through my channel!</h2>
+      <a href="https://tyt.com/" target="_blank" width="100">TYT.com</a>
+      <!--Claudio suggests putting width into CSS not HTML file which makes sense since it is visual and cosmetic-->
+      </article>
+    </section>
+  </main>
+
+  <footer class="text-centered">
+    <section class="lightbrown-headerbackground">
+      <h1>Contact</h1>
+      </section>
+      <p>Feel free to connect with me through email and social media at the following links:</p>
+      <p>phaxx031@umn.edu</p>
+      <!--I personally prefer it when links open up in tabs as opposed to a new window thus I used the target="_blank" to make that happen-->
+      <a href="https://www.linkedin.com/in/xeng-pha/" target="_blank"> <img src="linkedin-logo.png" width="150"></a>
+      <a href="http://www.github.com/phaxx031" target="_blank"> <img src="github logo.png" width="150"></a>
+      <!--Claudio suggests putting width into CSS not HTML file which makes sense since it is visual and cosmetic-->
+  </footer>
 </body>
 
 </html>
